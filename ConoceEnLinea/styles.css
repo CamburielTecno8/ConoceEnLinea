@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Fondo {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    background: #aed2d1;
+    color: white;
+    font-size: 32px;
+    font-family: 'Shadows Into Light', cursive;
+    border-bottom: 4px solid white; 
+    padding-left: 40px;
+    text-shadow: 5px 1px 3px rgb(110, 108, 108);
+}
+
+.separacion_de_parrafo {
+    padding: 10px;
+    font-family: arial;
+    font-size: larger;
+    text-align: justify;
+    color: white;
+    text-indent: 40px;
+}
+
+section {
+    padding: 10px;
+    font-family: arial; 
+    color: white;
+}
+
+article {
+    background: rgb(199, 186, 186);
+    border: 1px rgb(130, 127, 127) solid;
+    box-shadow: 5px 2px 3px rgb(94, 93, 93);
+    margin-right: 100px;
+    margin-left: 90px;
+}
+
+.parrafo_articulo {
+    text-align: justify;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    font-family: arial;
+}
+
+.link {
+    padding-bottom: 30px;
+    text-align:center;
+}
+
+hgroup {
+    text-align: left;
+    padding-right: 40px;
+    padding: 30px;
+}
+
+hgroup h1 {
+    padding-bottom: 15px;
+    text-align: justify;
+}
+
+div {
+    background: rgba(123, 163, 150, 0.6);
+    padding-left: 25px;
+    margin-left: 40px;
+    margin-bottom: 0;
+    margin-top: 40px;
+    margin-right: 300px;
+    box-shadow: 10px 8px 8px 2px rgba(0, 0, 0, 0.30);
+    border-radius: 15px 15px 0px 0px;
+    text-shadow: 4px 2px 3px rgb(110, 108, 108); 
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.Titulos {
+   padding-left: 30px;
+    font-family: arial;
+    color: white;
+}
+
+.Mosca{
+    width: 664px;
+    height: 300px;
+    margin-left: 40px;
+    padding-top: 0%;
+    border: white;
+    box-shadow: 10px 8px 8px 2px rgba(0, 0, 0, 0.30);
+    border-radius: 0px 0px 15px 15px;
+    border-style: none none solid solid;
+}
+
+.aristoteles{
+    box-shadow: 10px 8px 8px 2px rgba(0, 0, 0, 0.30);
+    border-radius: 10px 10px 10px 10px;
+    width: 200px;
+    margin-bottom: -19px;
+}
+
+
+.rene{
+    box-shadow: 10px 8px 8px 2px rgba(0, 0, 0, 0.30);
+    border-radius: 10px 10px 10px 10px;
+    width: 200px;
+    height: 268px;
+    margin-left: 7px;
+    margin-bottom: -19px;
+}
+
+.francis{
+    box-shadow: 10px 8px 8px 2px rgba(0, 0, 0, 0.30);
+    border-radius: 10px 10px 10px 10px;
+    width: 200px;
+    height: 268px;
+    margin-left: 420px;
+    margin-top: -500px;
+}
+
+.div2 {
+    border-radius: 15px 15px 15px 15px;
+}
+
+ul {
+    margin-left: 150px;
+    font-family: arial;
+    font-size: larger;
+    text-align: justify;
+    color: white;
+    margin-right: 10px;
+}
+
+.Video_de_Redi {
+    width: 400px;
+    margin-bottom: 50px;
+    margin: 30px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 8px 8px 2px rgba(0, 0, 0, 0.30);
+}
+
+h4 {
+    margin-top: 30px;
+    margin-bottom: -25px;
+    font-size: medium;
+    margin-left: 40px;
+}
+
+.redi {
+    margin-top: 25px;
+    margin-right: 40px;
+    margin-left: 80px;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 8px 8px 2px rgba(0, 0, 0, 0.30);
+}
+
+.foto_spallanzani {
+    margin-top: 25px;
+    margin-right: 40px;
+    margin-left: 80px;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 8px 8px 2px rgba(0, 0, 0, 0.30);
+}
+
+.Video_de_Spallanzani {
+    width: 400px;
+    margin-bottom: 50px;
+    margin: 30px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 8px 8px 2px rgba(0, 0, 0, 0.30);
+}
+
+.foto_pasteur {
+    margin-top: 25px;
+    margin-right: 40px;
+    margin-left: 80px;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 8px 8px 2px rgba(0, 0, 0, 0.30);
+}
+
+.Video_de_Pasteur {
+    width: 400px;
+    margin-bottom: 50px;
+    margin: 30px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+#menu_tipo_indice {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background: rgb(245, 239, 164, 0.7);
+    padding: 15px 0px;
+    margin: auto;
+    border-bottom: 4px solid white;
+    text-shadow: 3px 1px 3px rgb(110, 108, 108);
+}
+
+#menu_tipo_indice li a {
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+#menu_tipo_indice li a:hover {
+    padding: 5px 10px;
+    background: white;
+    color:rgb(136, 128, 128)
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: arial;
+}
+
+div [id]{
+    scroll-margin-top: 40px;
+}
+
+h1 [id]{
+    scroll-margin-top: 40px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+time {
+    margin-left: 50px;
+    font-family: arial;
+    text-align: justify;
+    font-size: smaller;
+}
+
+.imagen_articulo {
+    margin-left: 50px;
+    height: 230px;
+    border: 2px rgb(130, 127, 127) solid;
+}
+
+#imagen_articulo {
+    margin-left: 50px;
+    border: 2px rgb(130, 127, 127) solid;
+    width: 304px;
+    height: 230px;
+}
+
+.Pie {
+    background: #aed2d1;
+    color: white;
+    font-size: 21px;
+    font-family: arial;
+    border-top: 4px solid white; 
+    text-align: center;
+    clear: both;
+}
+
+.columna_derecha {
+    float: top;
+    font-family: arial;
+    color:white;
+    background: #aed2d1;
+    margin-top: -6760px;
+    height: 1600px;
+    width: 200px;
+    margin-left: 680px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 8px 8px 2px rgba(0, 0, 0, 0.30);
+    text-shadow: 4px 2px 3px rgb(110, 108, 108);
+    border: 3px white solid; 
+}  
+
+.columna_derecha h1 {
+    padding-bottom: 40px;
+    margin-top: 25px;
+}
+
+.columna_derecha blockquote {
+    padding: 40px;
+    font-size: 23px;
+    text-align: center;
+    background: rgba(252, 252, 252, 0.434);
+    color: rgb(216, 216, 121);
+}
+
+audio {
+    height: 20px;
+    margin-left: 250px;
+    background: rgba(114, 109, 109, 0.245);
+    padding: 5px;
+    border-radius: 15px;
+    margin-top: -26px;
+}
+
+.Asistente {
+    margin-left: 255px;
+    font-family: arial;
+    color: white;
+    font-size: medium;
+}
